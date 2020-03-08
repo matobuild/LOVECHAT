@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48144A4C240DBD0100B18FD8 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48144A4A240DBD0100B18FD8 /* MessageCell.swift */; };
+		48144A4D240DBD0100B18FD8 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48144A4B240DBD0100B18FD8 /* MessageCell.xib */; };
+		481A63A7240B9C6F001C2147 /* SignInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A63A6240B9C6F001C2147 /* SignInPage.swift */; };
+		481A63A9240B9C95001C2147 /* SignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A63A8240B9C95001C2147 /* SignUpPage.swift */; };
+		481A63AB240B9CB0001C2147 /* ChatPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481A63AA240B9CB0001C2147 /* ChatPage.swift */; };
+		4850EA3B240C0B880087A83F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4850EA3A240C0B880087A83F /* Message.swift */; };
+		48873F5B240F13890011A4AF /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 48873F5A240F13890011A4AF /* IQKeyboardManagerSwift */; };
+		489B5906240A97A500BA3035 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489B5905240A97A500BA3035 /* AppDelegate.swift */; };
+		489B5908240A97A500BA3035 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489B5907240A97A500BA3035 /* SceneDelegate.swift */; };
+		489B590A240A97A600BA3035 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489B5909240A97A600BA3035 /* WelcomePage.swift */; };
+		489B590D240A97A600BA3035 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489B590B240A97A600BA3035 /* Main.storyboard */; };
+		489B590F240A97A600BA3035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 489B590E240A97A600BA3035 /* Assets.xcassets */; };
+		489B5912240A97A600BA3035 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489B5910240A97A600BA3035 /* LaunchScreen.storyboard */; };
+		48D3EE0F240B7F36004C42C4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D3EE0E240B7F36004C42C4 /* Constants.swift */; };
+		48F61952240BC46D00F38FF9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48F61951240BC46D00F38FF9 /* GoogleService-Info.plist */; };
+		EF193AC0507131439D2BA748 /* Pods_LOVECHAT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C4E21719930380BEAFC505 /* Pods_LOVECHAT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48144A4A240DBD0100B18FD8 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		48144A4B240DBD0100B18FD8 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		481A63A6240B9C6F001C2147 /* SignInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPage.swift; sourceTree = "<group>"; };
+		481A63A8240B9C95001C2147 /* SignUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPage.swift; sourceTree = "<group>"; };
+		481A63AA240B9CB0001C2147 /* ChatPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPage.swift; sourceTree = "<group>"; };
+		482D92BE240FDC93005EFDE4 /* CLTypingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CLTypingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		482D92C2240FDD8F005EFDE4 /* CLTypingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CLTypingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4850EA3A240C0B880087A83F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		489B5902240A97A500BA3035 /* JUST US.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JUST US.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		489B5905240A97A500BA3035 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		489B5907240A97A500BA3035 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		489B5909240A97A600BA3035 /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+		489B590C240A97A600BA3035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		489B590E240A97A600BA3035 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		489B5911240A97A600BA3035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		489B5913240A97A600BA3035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48D3EE0E240B7F36004C42C4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		48F61951240BC46D00F38FF9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		865CC5D9222AAB20EC5A9F7D /* Pods-LOVECHAT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOVECHAT.debug.xcconfig"; path = "Target Support Files/Pods-LOVECHAT/Pods-LOVECHAT.debug.xcconfig"; sourceTree = "<group>"; };
+		A1C4E21719930380BEAFC505 /* Pods_LOVECHAT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LOVECHAT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB9D3AC9C0C36A7782B9201 /* Pods-LOVECHAT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOVECHAT.release.xcconfig"; path = "Target Support Files/Pods-LOVECHAT/Pods-LOVECHAT.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		489B58FF240A97A500BA3035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF193AC0507131439D2BA748 /* Pods_LOVECHAT.framework in Frameworks */,
+				48873F5B240F13890011A4AF /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DEE59C89EFFA97D8EE646F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				865CC5D9222AAB20EC5A9F7D /* Pods-LOVECHAT.debug.xcconfig */,
+				CCB9D3AC9C0C36A7782B9201 /* Pods-LOVECHAT.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3A33397175C6120EDDD86B76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				482D92C2240FDD8F005EFDE4 /* CLTypingLabel.framework */,
+				482D92BE240FDC93005EFDE4 /* CLTypingLabel.framework */,
+				A1C4E21719930380BEAFC505 /* Pods_LOVECHAT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		489B58F9240A97A500BA3035 = {
+			isa = PBXGroup;
+			children = (
+				489B5904240A97A500BA3035 /* LOVECHAT */,
+				489B5903240A97A500BA3035 /* Products */,
+				1DEE59C89EFFA97D8EE646F1 /* Pods */,
+				3A33397175C6120EDDD86B76 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		489B5903240A97A500BA3035 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				489B5902240A97A500BA3035 /* JUST US.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		489B5904240A97A500BA3035 /* LOVECHAT */ = {
+			isa = PBXGroup;
+			children = (
+				48D3EE0B240B7E8C004C42C4 /* Models */,
+				48D3EE0C240B7EAA004C42C4 /* Views */,
+				48D3EE0D240B7EBC004C42C4 /* Controllers */,
+				489B5905240A97A500BA3035 /* AppDelegate.swift */,
+				489B5907240A97A500BA3035 /* SceneDelegate.swift */,
+				489B590E240A97A600BA3035 /* Assets.xcassets */,
+				489B5910240A97A600BA3035 /* LaunchScreen.storyboard */,
+				489B5913240A97A600BA3035 /* Info.plist */,
+				48F61951240BC46D00F38FF9 /* GoogleService-Info.plist */,
+				48D3EE0E240B7F36004C42C4 /* Constants.swift */,
+			);
+			path = LOVECHAT;
+			sourceTree = "<group>";
+		};
+		48D3EE0B240B7E8C004C42C4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4850EA3A240C0B880087A83F /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		48D3EE0C240B7EAA004C42C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				489B590B240A97A600BA3035 /* Main.storyboard */,
+				48144A4A240DBD0100B18FD8 /* MessageCell.swift */,
+				48144A4B240DBD0100B18FD8 /* MessageCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		48D3EE0D240B7EBC004C42C4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				489B5909240A97A600BA3035 /* WelcomePage.swift */,
+				481A63A6240B9C6F001C2147 /* SignInPage.swift */,
+				481A63A8240B9C95001C2147 /* SignUpPage.swift */,
+				481A63AA240B9CB0001C2147 /* ChatPage.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		489B5901240A97A500BA3035 /* LOVECHAT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 489B592C240A97A600BA3035 /* Build configuration list for PBXNativeTarget "LOVECHAT" */;
+			buildPhases = (
+				A3096FD39BC06ECF55766DA2 /* [CP] Check Pods Manifest.lock */,
+				489B58FE240A97A500BA3035 /* Sources */,
+				489B58FF240A97A500BA3035 /* Frameworks */,
+				489B5900240A97A500BA3035 /* Resources */,
+				3D3D6C9CC226FDC82661A157 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LOVECHAT;
+			packageProductDependencies = (
+				48873F5A240F13890011A4AF /* IQKeyboardManagerSwift */,
+			);
+			productName = LOVECHAT;
+			productReference = 489B5902240A97A500BA3035 /* JUST US.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		489B58FA240A97A500BA3035 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "kittawat phuangsombat";
+				TargetAttributes = {
+					489B5901240A97A500BA3035 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 489B58FD240A97A500BA3035 /* Build configuration list for PBXProject "LOVECHAT" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 489B58F9240A97A500BA3035;
+			packageReferences = (
+				48873F59240F13890011A4AF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
+			productRefGroup = 489B5903240A97A500BA3035 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				489B5901240A97A500BA3035 /* LOVECHAT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		489B5900240A97A500BA3035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48144A4D240DBD0100B18FD8 /* MessageCell.xib in Resources */,
+				489B5912240A97A600BA3035 /* LaunchScreen.storyboard in Resources */,
+				48F61952240BC46D00F38FF9 /* GoogleService-Info.plist in Resources */,
+				489B590F240A97A600BA3035 /* Assets.xcassets in Resources */,
+				489B590D240A97A600BA3035 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D3D6C9CC226FDC82661A157 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LOVECHAT/Pods-LOVECHAT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LOVECHAT/Pods-LOVECHAT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LOVECHAT/Pods-LOVECHAT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3096FD39BC06ECF55766DA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LOVECHAT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		489B58FE240A97A500BA3035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481A63A9240B9C95001C2147 /* SignUpPage.swift in Sources */,
+				481A63AB240B9CB0001C2147 /* ChatPage.swift in Sources */,
+				489B590A240A97A600BA3035 /* WelcomePage.swift in Sources */,
+				489B5906240A97A500BA3035 /* AppDelegate.swift in Sources */,
+				489B5908240A97A500BA3035 /* SceneDelegate.swift in Sources */,
+				4850EA3B240C0B880087A83F /* Message.swift in Sources */,
+				48D3EE0F240B7F36004C42C4 /* Constants.swift in Sources */,
+				481A63A7240B9C6F001C2147 /* SignInPage.swift in Sources */,
+				48144A4C240DBD0100B18FD8 /* MessageCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		489B590B240A97A600BA3035 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				489B590C240A97A600BA3035 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		489B5910240A97A600BA3035 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				489B5911240A97A600BA3035 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		489B592A240A97A600BA3035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		489B592B240A97A600BA3035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		489B592D240A97A600BA3035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 865CC5D9222AAB20EC5A9F7D /* Pods-LOVECHAT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLN427AJ4B;
+				INFOPLIST_FILE = LOVECHAT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mato.JUSTUS;
+				PRODUCT_NAME = "JUST US";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		489B592E240A97A600BA3035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB9D3AC9C0C36A7782B9201 /* Pods-LOVECHAT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLN427AJ4B;
+				INFOPLIST_FILE = LOVECHAT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mato.JUSTUS;
+				PRODUCT_NAME = "JUST US";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		489B58FD240A97A500BA3035 /* Build configuration list for PBXProject "LOVECHAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489B592A240A97A600BA3035 /* Debug */,
+				489B592B240A97A600BA3035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		489B592C240A97A600BA3035 /* Build configuration list for PBXNativeTarget "LOVECHAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489B592D240A97A600BA3035 /* Debug */,
+				489B592E240A97A600BA3035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		48873F59240F13890011A4AF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		48873F5A240F13890011A4AF /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48873F59240F13890011A4AF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 489B58FA240A97A500BA3035 /* Project object */;
+}
