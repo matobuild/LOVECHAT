@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7vj-YI-c6p">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7vj-YI-c6p">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -13,14 +13,14 @@
             <objects>
                 <viewController id="BQt-Vu-8zQ" userLabel="WelcomePage" customClass="WelcomePage" customModule="JUST_US" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vUz-2J-63q">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Background-Bubbles" translatesAutoresizingMaskIntoConstraints="NO" id="oro-bq-T12">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background-Bubbles" translatesAutoresizingMaskIntoConstraints="NO" id="oro-bq-T12">
                                 <rect key="frame" x="0.0" y="706" width="414" height="102"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vDW-t2-3at">
-                                <rect key="frame" x="20" y="20" width="357" height="580.66666666666663"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vDW-t2-3at">
+                                <rect key="frame" x="20" y="20" width="357" height="682.66666666666663"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hgG-JF-Zgn">
                                         <rect key="frame" x="58.666666666666671" y="0.0" width="239.66666666666663" height="105.33333333333333"/>
@@ -53,11 +53,11 @@
                                             <constraint firstAttribute="bottom" secondItem="wQY-my-MFf" secondAttribute="bottom" constant="50" id="c2T-1v-2eV"/>
                                         </constraints>
                                     </stackView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="fBO-me-OgK">
-                                        <rect key="frame" x="8" y="255.33333333333331" width="341" height="153.33333333333331"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="fBO-me-OgK">
+                                        <rect key="frame" x="8" y="255.33333333333334" width="341" height="341.33333333333326"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQH-P8-cTw">
-                                        <rect key="frame" x="0.0" y="408.66666666666663" width="357" height="172"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQH-P8-cTw">
+                                        <rect key="frame" x="0.0" y="596.66666666666663" width="357" height="86"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
                                         <state key="normal" title="Let's Chat" backgroundImage="Image">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -101,11 +101,11 @@
             <objects>
                 <viewController id="GUT-Xx-e4n" userLabel="SingUpPage" customClass="SignUpPage" customModule="JUST_US" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qpf-N4-qZK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background-Bubbles" translatesAutoresizingMaskIntoConstraints="NO" id="IhI-fO-2A6">
-                                <rect key="frame" x="-145" y="706" width="704" height="204"/>
+                                <rect key="frame" x="31" y="706" width="352" height="102"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="QL0-h5-O1f" userLabel="all Stack View">
                                 <rect key="frame" x="20" y="0.0" width="374" height="837"/>
@@ -193,10 +193,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RiO-8G-Tlt">
-                                        <rect key="frame" x="0.0" y="496" width="374" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="496" width="374" height="50"/>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vPM-oD-M17">
-                                        <rect key="frame" x="0.0" y="496" width="374" height="136"/>
+                                        <rect key="frame" x="0.0" y="546" width="374" height="86"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
                                         <state key="normal" title="Register" backgroundImage="Image">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -206,23 +206,23 @@
                                         </connections>
                                     </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LHU-ko-B1W">
-                                        <rect key="frame" x="0.0" y="632" width="374" height="67"/>
+                                        <rect key="frame" x="0.0" y="632" width="374" height="68"/>
                                     </view>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="divider" translatesAutoresizingMaskIntoConstraints="NO" id="sdK-Zi-Dl9">
-                                        <rect key="frame" x="0.0" y="699" width="374" height="2"/>
+                                        <rect key="frame" x="0.0" y="700" width="374" height="1"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="LQm-cM-aXa" userLabel="bottomLogin">
-                                        <rect key="frame" x="0.0" y="701" width="374" height="136"/>
+                                        <rect key="frame" x="0.0" y="701" width="374" height="86"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwt-Gy-JAm">
-                                                <rect key="frame" x="0.0" y="0.0" width="187" height="136"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="187" height="86"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
                                                 <state key="normal" title="facebook" backgroundImage="surfaceButton">
                                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sF6-Z0-4Fh">
-                                                <rect key="frame" x="187" y="0.0" width="187" height="136"/>
+                                                <rect key="frame" x="187" y="0.0" width="187" height="86"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
                                                 <state key="normal" title="google" backgroundImage="surfaceButton">
                                                     <color key="titleColor" red="0.062745098040000002" green="0.062745098040000002" blue="0.062745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -231,7 +231,7 @@
                                         </subviews>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1w0-yu-uW2">
-                                        <rect key="frame" x="0.0" y="837" width="374" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="787" width="374" height="50"/>
                                     </view>
                                 </subviews>
                                 <constraints>
@@ -269,7 +269,7 @@
             <objects>
                 <viewController id="TF9-XJ-Au5" userLabel="ChatPage" customClass="ChatPage" customModule="JUST_US" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="syS-Hm-2Q3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QT2-Rv-Iqy" userLabel="chatview">
@@ -359,11 +359,11 @@
             <objects>
                 <viewController id="43G-Xo-OXO" userLabel="SignInPage" customClass="SignInPage" customModule="JUST_US" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QHh-DC-2Yn">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background-Bubbles" translatesAutoresizingMaskIntoConstraints="NO" id="MfI-p7-w4W">
-                                <rect key="frame" x="-145" y="706" width="704" height="204"/>
+                                <rect key="frame" x="31" y="706" width="352" height="102"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="IWv-Bd-ilV" userLabel="all Stack View">
                                 <rect key="frame" x="20" y="0.0" width="374" height="837"/>
@@ -427,7 +427,7 @@
                                         <rect key="frame" x="0.0" y="396" width="374" height="100"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="surfaceTextField" translatesAutoresizingMaskIntoConstraints="NO" id="zfT-TM-Lgd">
-                                                <rect key="frame" x="20" y="-12" width="326" height="128"/>
+                                                <rect key="frame" x="20" y="20" width="326" height="64"/>
                                             </imageView>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="123456" placeholder="123456" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9oH-tm-e7S">
                                                 <rect key="frame" x="37" y="35" width="74" height="34"/>
@@ -447,10 +447,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="guA-Vw-Gy4">
-                                        <rect key="frame" x="0.0" y="496" width="374" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="496" width="374" height="50"/>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZwW-AF-Mq3">
-                                        <rect key="frame" x="0.0" y="496" width="374" height="136"/>
+                                        <rect key="frame" x="0.0" y="546" width="374" height="86"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
                                         <state key="normal" title="Login" backgroundImage="Image">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -460,23 +460,23 @@
                                         </connections>
                                     </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gKN-eh-DFy">
-                                        <rect key="frame" x="0.0" y="632" width="374" height="67"/>
+                                        <rect key="frame" x="0.0" y="632" width="374" height="68"/>
                                     </view>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="divider" translatesAutoresizingMaskIntoConstraints="NO" id="SNi-SM-YIC">
-                                        <rect key="frame" x="0.0" y="699" width="374" height="2"/>
+                                        <rect key="frame" x="0.0" y="700" width="374" height="1"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="0Kf-2x-b5j" userLabel="bottomLogin">
-                                        <rect key="frame" x="0.0" y="701" width="374" height="136"/>
+                                        <rect key="frame" x="0.0" y="701" width="374" height="86"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbZ-Z9-gq2">
-                                                <rect key="frame" x="0.0" y="0.0" width="187" height="136"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="187" height="86"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
                                                 <state key="normal" title="facebook" backgroundImage="surfaceButton">
                                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7Z-zJ-1ZX">
-                                                <rect key="frame" x="187" y="0.0" width="187" height="136"/>
+                                                <rect key="frame" x="187" y="0.0" width="187" height="86"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
                                                 <state key="normal" title="google" backgroundImage="surfaceButton">
                                                     <color key="titleColor" red="0.062745098040000002" green="0.062745098040000002" blue="0.062745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -485,7 +485,7 @@
                                         </subviews>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ws5-Fc-pzS">
-                                        <rect key="frame" x="0.0" y="837" width="374" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="787" width="374" height="50"/>
                                     </view>
                                 </subviews>
                                 <constraints>
@@ -547,6 +547,9 @@
             <point key="canvasLocation" x="-10.144927536231885" y="75.669642857142847"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="uog-Py-mn9"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Background-Bubbles" width="352" height="102"/>
         <image name="Image" width="357" height="86"/>
@@ -559,7 +562,4 @@
             <color red="0.96100002527236938" green="0.95300000905990601" blue="0.93699997663497925" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="MlR-K3-gDm"/>
-    </inferredMetricsTieBreakers>
 </document>
