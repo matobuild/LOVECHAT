@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7vj-YI-c6p">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7vj-YI-c6p">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -56,7 +57,7 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="fBO-me-OgK">
                                         <rect key="frame" x="8" y="255.33333333333334" width="341" height="341.33333333333326"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQH-P8-cTw">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQH-P8-cTw">
                                         <rect key="frame" x="0.0" y="596.66666666666663" width="357" height="86"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
                                         <state key="normal" title="Let's Chat" backgroundImage="Image">
@@ -74,6 +75,7 @@
                                 </constraints>
                             </stackView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="k4g-QI-ZS1"/>
                         <color key="backgroundColor" name="colorbackground"/>
                         <constraints>
                             <constraint firstItem="k4g-QI-ZS1" firstAttribute="trailing" secondItem="vDW-t2-3at" secondAttribute="trailing" constant="37" id="9t4-99-Q55"/>
@@ -84,7 +86,6 @@
                             <constraint firstAttribute="bottomMargin" secondItem="oro-bq-T12" secondAttribute="bottom" constant="-34" id="t5K-16-CiA"/>
                             <constraint firstItem="oro-bq-T12" firstAttribute="centerX" secondItem="vUz-2J-63q" secondAttribute="centerX" id="tdk-1a-Gec"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="k4g-QI-ZS1"/>
                     </view>
                     <navigationItem key="navigationItem" id="5NP-Ja-VRr"/>
                     <connections>
@@ -195,7 +196,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RiO-8G-Tlt">
                                         <rect key="frame" x="0.0" y="496" width="374" height="50"/>
                                     </view>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vPM-oD-M17">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vPM-oD-M17">
                                         <rect key="frame" x="0.0" y="546" width="374" height="86"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
                                         <state key="normal" title="Register" backgroundImage="Image">
@@ -242,6 +243,7 @@
                                 </constraints>
                             </stackView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="Nzc-Is-MFe"/>
                         <color key="backgroundColor" name="colorbackground"/>
                         <constraints>
                             <constraint firstItem="QL0-h5-O1f" firstAttribute="centerX" secondItem="IhI-fO-2A6" secondAttribute="centerX" id="0bd-Nd-M96"/>
@@ -251,7 +253,6 @@
                             <constraint firstItem="IhI-fO-2A6" firstAttribute="top" secondItem="Nzc-Is-MFe" secondAttribute="top" constant="706" id="ozG-Pv-fzk"/>
                             <constraint firstAttribute="bottomMargin" secondItem="QL0-h5-O1f" secondAttribute="bottom" constant="-63" id="tkK-nU-TjL"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Nzc-Is-MFe"/>
                     </view>
                     <navigationItem key="navigationItem" id="Sph-ii-V39"/>
                     <connections>
@@ -293,14 +294,19 @@
                                                         <rect key="frame" x="-2" y="18" width="302" height="64"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     </imageView>
-                                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="😊Write something here..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l93-r1-6s7">
-                                                        <rect key="frame" x="15" y="33" width="270" height="34"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="😊Write something here..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l93-r1-6s7">
+                                                        <rect key="frame" x="0.0" y="0.0" width="329" height="100"/>
                                                         <color key="textColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
                                                         <textInputTraits key="textInputTraits" returnKeyType="send"/>
                                                     </textField>
                                                 </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="l93-r1-6s7" firstAttribute="top" secondItem="mtI-z8-3gj" secondAttribute="top" id="H1c-e2-HJP"/>
+                                                    <constraint firstItem="l93-r1-6s7" firstAttribute="leading" secondItem="mtI-z8-3gj" secondAttribute="leading" id="eCd-mu-h9d"/>
+                                                    <constraint firstAttribute="trailing" secondItem="l93-r1-6s7" secondAttribute="trailing" id="kzV-EW-QqG"/>
+                                                    <constraint firstAttribute="bottom" secondItem="l93-r1-6s7" secondAttribute="bottom" id="yLV-6o-QAb"/>
+                                                </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jwF-0d-PIi" userLabel="send">
                                                 <rect key="frame" x="294" y="-8" width="108" height="100"/>
@@ -329,6 +335,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="Kof-H8-CDg"/>
                         <color key="backgroundColor" name="colorbackground"/>
                         <constraints>
                             <constraint firstItem="Kof-H8-CDg" firstAttribute="bottom" secondItem="QT2-Rv-Iqy" secondAttribute="bottom" id="Azg-aR-ATr"/>
@@ -336,7 +343,6 @@
                             <constraint firstItem="QT2-Rv-Iqy" firstAttribute="leading" secondItem="Kof-H8-CDg" secondAttribute="leading" id="dby-EX-cgd"/>
                             <constraint firstItem="QT2-Rv-Iqy" firstAttribute="top" secondItem="Kof-H8-CDg" secondAttribute="top" id="sjt-DM-mOg"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Kof-H8-CDg"/>
                     </view>
                     <navigationItem key="navigationItem" id="W1B-ce-xsK">
                         <barButtonItem key="rightBarButtonItem" title="LOG OUT" id="JJ1-mv-w4f">
@@ -449,7 +455,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="guA-Vw-Gy4">
                                         <rect key="frame" x="0.0" y="496" width="374" height="50"/>
                                     </view>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZwW-AF-Mq3">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZwW-AF-Mq3">
                                         <rect key="frame" x="0.0" y="546" width="374" height="86"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
                                         <state key="normal" title="Login" backgroundImage="Image">
@@ -498,6 +504,7 @@
                                 </constraints>
                             </stackView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bhs-p6-Yfm"/>
                         <color key="backgroundColor" name="colorbackground"/>
                         <constraints>
                             <constraint firstItem="IWv-Bd-ilV" firstAttribute="top" secondItem="Bhs-p6-Yfm" secondAttribute="top" id="1iD-mK-pMh"/>
@@ -507,7 +514,6 @@
                             <constraint firstAttribute="bottomMargin" secondItem="IWv-Bd-ilV" secondAttribute="bottom" constant="-63" id="Xht-th-8au"/>
                             <constraint firstItem="IWv-Bd-ilV" firstAttribute="leading" secondItem="QHh-DC-2Yn" secondAttribute="leadingMargin" id="ghP-BQ-pyd"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Bhs-p6-Yfm"/>
                     </view>
                     <navigationItem key="navigationItem" id="mq5-Zh-vBO">
                         <barButtonItem key="rightBarButtonItem" title="SIGN UP" id="3bI-yo-6f5">
@@ -547,6 +553,10 @@
             <point key="canvasLocation" x="-10.144927536231885" y="75.669642857142847"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="CeD-aI-FAP"/>
+        <designable name="wQY-my-MFf"/>
+    </designables>
     <inferredMetricsTieBreakers>
         <segue reference="uog-Py-mn9"/>
     </inferredMetricsTieBreakers>
